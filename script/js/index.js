@@ -2,7 +2,7 @@ jQuery( document ).ready( function( $ ){
 
 	// Intro size setup
 
-	setupIntro(); // On ready, resize intro
+	/*setupIntro(); // On ready, resize intro
 
 	$( window ).resize( function() { setupIntro(); } ); // On resize
 
@@ -10,7 +10,7 @@ jQuery( document ).ready( function( $ ){
 		var infoBox = $('.info' );
 		var titleBox = $( '.info').find('.container');
 		$( '.info' ).find( '.container' ).css( 'top', ( ( infoBox.height() - titleBox.height() - 20 ) / 1.87) + 'px' );
-	}
+	}*/
 
 //	// Making navigation sticky on scroll
 //	$( '#nav' ).sticky( { topSpacing:10 } );
@@ -24,7 +24,8 @@ jQuery( document ).ready( function( $ ){
 //	});
 
 	// Full background image
-	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'images/spillmyink_beach-blacknwhite.jpg' );
+    $.backstretch( 'images/spillmyink_beach-blacknwhite.jpg' ); // To attach Backstrech as the body's background
+//	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'images/spillmyink_beach-blacknwhite.jpg' );
 //	$( "#intro" ).find( '.info' ).backstretch( '../static/images/spillmyink_beach-blacknwhite.jpg' );
 //	$( "#intro" ).backstretch( width: 320, url: '../static/images/spillmyink_beach-blacknwhite.jpg' );
 	/*$("#intro").backstretch([
