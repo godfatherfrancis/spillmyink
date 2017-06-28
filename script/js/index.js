@@ -25,20 +25,5 @@ jQuery( document ).ready( function( $ ){
 
 	// Full background image
     $.backstretch( 'images/spillmyink_beach-blacknwhite.jpg' ); // To attach Backstrech as the body's background
-//	$( '.fx-backstretch' ).find( '.info' ).backstretch( 'images/spillmyink_beach-blacknwhite.jpg' );
-//	$( "#intro" ).find( '.info' ).backstretch( '../static/images/spillmyink_beach-blacknwhite.jpg' );
-//	$( "#intro" ).backstretch( width: 320, url: '../static/images/spillmyink_beach-blacknwhite.jpg' );
-	/*$("#intro").backstretch([
-        [
-          { width: 1334, url: "../static/images/spillmyink_beach-blacknwhite.jpg" }*//*,
-          { width: 720, url: "path/to/image1_720.jpg" },
-          { width: 320, url: "path/to/image1_320.jpg" }*//*
-        ]*//*,
-        [
-          { width: 1080, url: "path/to/image2_1080.jpg" },
-          { width: 720, url: "path/to/image2_720.jpg" },
-          { width: 320, url: "path/to/image2_320.jpg" }
-        ]*//*
-      ]);*/
 
 });
