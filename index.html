@@ -13,13 +13,20 @@
     <meta name="keywords"
           content="Music, Artist, Musician">
     <title>SpillMyInk | Vintage Nation</title>
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="script/css/index.css">
-    <link type="text/css" rel="stylesheet" media="screen" href="script/css/jquery-sakura.min.css" />
+    <!--<link rel="stylesheet" href="script/css/index.css">-->
     <!--<link rel="icon" href="../script/images/favicon.ico">-->
     <!--<link rel="icon" href="../script/images/artinus_logo_blk.png">-->
 </head>
 <body>
+
+<!--<div class="res">
+    &lt;!&ndash;<header class="big-banner tall demo-header">&ndash;&gt;
+    <h1 id="headline" class="shine large light shine-text-color">INK</h1>
+    &lt;!&ndash;</header>&ndash;&gt;
+</div>-->
+
+<!--<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+<link type="text/css" rel="stylesheet" href="script/css/jquery-sakura.min.css"/>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
@@ -29,15 +36,30 @@
 <!-- make it rain - sakura petals -->
 <script src="script/js/jquery-sakura.min.js"></script>
 
+<!-- Shine -->
+<!--<script src="script/js/shine.min.js"></script>-->
+
 <!-- custom scripting -->
 <!--<script src="script/js/index.js"></script>-->
 
 <script>
-    $.backstretch( 'images/spillmyink_beach-blacknwhite.jpg' );
+    $.backstretch('images/spillmyink_beach-blacknwhite.jpg');
+
+    //    $('body').sakura();
     // domReady
-    $(function() {
+    $(function () {
         $('body').sakura();
     });
+
+    // Disable falling petal animation on mobile
+
+//    var shine = new Shine(document.getElementById('headline'));
+
+    /*window.addEventListener('mousemove', function (event) {
+        shine.light.position.x = event.clientX;
+        shine.light.position.y = event.clientY;
+        shine.draw();
+    }, false);*/
 </script>
 
 </body>
